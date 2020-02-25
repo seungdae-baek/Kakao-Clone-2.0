@@ -16,10 +16,10 @@
 }
 
 body{
-    
-    background-color: white;
+    display: flex;
+    background-color: rgb(59, 59, 59);
     padding: 10px 20px;
-    color:#020202;
+    color:white;
     font-family: "open sans";
     
 }

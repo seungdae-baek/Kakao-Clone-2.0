@@ -1,20 +1,91 @@
 .friend{
     display: flex;
     justify-content: space-between;
+    justify-items: center;
     align-items: center;
 }
 
+li{
+    list-style: none;
+}
+
+.friends .channel-list{
+    height:80px;
+    overflow: scroll;
+}
+
+.channel__btn{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding:10px 0px;
+
+}
+
+.channel__btn-icon{
+    width: 50px;
+    height:50px;
+    padding:10px;
+    background-color:#FCE006;
+    border-radius: 15px;
+    text-align: center;
+    margin-right:10px;
+}
+
+.channel__title{
+font-size: 14px;
+opacity: 0.6;
+padding: 20px 0px 10px 0px;
+border-top:1pt solid rgb(165,165,165);
+}
+
+.friends__title{
+    font-size: 14px;
+    opacity: 0.6;
+    padding: 20px 0px 0px 0px;
+    border-top:1pt solid rgb(165,165,165);
+}
+
+
+.friend__column i{
+    font-size: 25px;
+    color:white;
+}
+
+.fa-shopping-basket{
+    margin-left:-3px;
+}
+
+.fa-gamepad{
+    margin-left: -5px;
+}
+
+
+
+
 .friend .friend__avatar{
     width:50px;
+    height:50px;
     border-radius: 38%;
 }
 
+.find_friend__avatar{
+    width:50px;
+    height:50px;
+    background-color: rgb(165,165,165);
+    margin-right:15px;
+    border-radius: 38%;
+}
+
+
 .friend__avatar.g-avatar{
-    width:70px;
+    width:60px;
+    height:60px;
 }
 
 .friend__avatar.m-avatar{
     width:60px;
+    height:60px;
 }
 
 .friend .friend__column{
@@ -25,6 +96,7 @@
 .friend .friend__avatar{
     margin-right: 15px;
 }
+
 
 .friend__content .friend__name{
     display: block;
@@ -62,7 +134,32 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f5f5f5;
-    padding:10px 15px;
+    background-color: rgb(165,165,165);
+    padding:5px 5px;
     border-radius: 5px;
+}
+.friend__add-btn i{
+    font-size: 20px;
+}
+
+.friend--lg{
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.friend__badge{
+    position: absolute;
+    top:40px;
+    right:0px;
+    font-size: 10px;
+    color:white;
+    background-color: #dc5d46;
+    width:18px;
+    height:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
