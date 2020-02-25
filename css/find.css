@@ -2,6 +2,7 @@
     position: relative;
     top:75px;
     margin-top: 30px;
+    width:100%;
 }
 
 .find .find__header-list{
@@ -32,9 +33,9 @@
 }
 
 .find .find__recommended{
-    margin-top: 30px;
+    margin-top: 15px;
     padding-top: 15px;
-    border-top:1px solid #f7f7f7;
+    border-top:1px solid rgb(165,165,165);
 }
 
 .find .find__title{

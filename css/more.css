@@ -1,6 +1,7 @@
 .more{
     position: relative;
-    top:95px;
+    top:105px;
+    width: 100%;
 }
 
 .more .more__btn-list,
@@ -28,7 +29,7 @@
 
 .more .more__btn-list,
 .more .more__suggestions{
-    border-top:1px solid #f7f7f7;
+    border-top:1px solid rgb(165,165,165);
     padding-top: 20px;
 }
 
