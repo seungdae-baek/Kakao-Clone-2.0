@@ -1,7 +1,13 @@
+.more{
+    position: relative;
+    top:95px;
+}
+
 .more .more__btn-list,
 .more .more__suggestion-list{
-    margin: 30px 0px;
-    margin-left:10px;
+    box-sizing: border-box;
+    margin: 20px 0px;
+    padding:0px 10px;
     display: flex;
     align-items: center;
 }
@@ -20,15 +26,15 @@
     margin-top: 15px;
 }
 
+.more .more__btn-list,
 .more .more__suggestions{
     border-top:1px solid #f7f7f7;
     padding-top: 20px;
-    cursor: pointer;
 }
+
 
 .more .more__title{
     opacity: 0.8;
-    margin-bottom: 20px;
 }
 
 .more .more__suggestion-list{
