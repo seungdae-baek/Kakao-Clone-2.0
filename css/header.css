@@ -33,13 +33,13 @@
     font-size:20px;
     margin-left:20px;
     cursor: pointer;
+    right:0px;
 }
 
 .header .header__header-column{
 display: flex;
 align-items: center;
 width:100%;
-
 }
 
 .header .header__back-btn{
